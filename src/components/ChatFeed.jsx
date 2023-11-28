@@ -43,8 +43,6 @@ const ChatFeed = (props) => {
     });
   };
 
-  renderMessages();
-
   if (!chat) return "Loading...";
 
   return (
